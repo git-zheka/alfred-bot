@@ -1,0 +1,210 @@
+ul {
+    list-style-type: none;
+}
+
+nav {
+    display: flex;
+    font-size: 18px;
+    background-color: #181A20;
+    width: 100%;
+    align-items: center;
+}
+
+.Menu {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.LogoMenu {
+   width: 10%;
+   padding: 10px 20px;
+}
+.LogoMenu img{
+    width: 100%;
+}
+
+.MenuOptions ul{
+    display: flex;
+    margin-left: 100px;
+}
+.MenuOptions li{
+    margin-left: 20px;
+} 
+
+.MenuOptions li a:hover {
+    color:#F0B90B;
+    transition: 0.2s;
+}
+
+.LoginMenu {
+    align-items: center;
+    margin-left: 11%;
+}
+.LoginMenu ul {
+    display: flex;
+    align-items: center;
+}
+.LoginMenu li {
+    margin-left: 20px;
+
+}
+.LoginMenu li:nth-child(2) {
+    background-color: #F0B90B;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    padding: 5px 10px;
+}
+
+.LoginMenu li:nth-child(1) a:hover{
+    color: #F0B90B;
+    transition: 0.2s;
+}
+.LoginMenu  img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.LanguagesMenu {
+    margin-left: 4%;
+    align-items: center;
+}
+
+.LanguagesMenu ul{
+   display: flex;
+}
+
+.LanguagesMenu li {
+    list-style-type: none;
+}
+
+.LanguagesMenu img {
+    width: 80%;
+    margin-top: -2px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+     
+    .Menu {
+        display: none;
+      }
+      
+      .Menu.open {
+        display: block;
+      }
+.OpenCloseMenu .bar {
+    display: block;
+    width: 40px;
+    height: 4px;
+    background-color: #F0B90B;
+    margin-top: 8px;
+    border-radius: 10px;
+}
+.OpenCloseMenu {
+    display: inline-block; 
+    margin-right: 20px;
+    float: right;
+    margin-top: 4px;
+}
+
+    nav {
+      display: block;
+      align-items: center;
+      font-size: 30px;
+      background-color: #181A20;
+      width: 100%;
+    }
+
+    
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      transition: 0.2s;
+    }
+
+    .LogoMenu {
+        width: 100px;
+        padding: 5px 10px;
+        display: inline-block;
+     }
+
+.MenuOptions {
+    box-shadow: 0px 5px 0px -2px #F0B90B;
+}
+
+     .MenuOptions ul{
+        display: block;
+        margin-left: 0px;
+        text-align: right;
+        margin-right: 20px;
+    }
+    .MenuOptions li{
+        margin-left: 20px;
+        margin-top: 5px;
+    } 
+    
+    .MenuOptions li a:hover {
+        color:#F0B90B;
+        transition: 0.2s;
+    }
+
+
+    .LoginMenu {
+        align-items: center;
+        margin-left: 0px;
+        margin-top: 15px;
+        box-shadow: 0px 5px 0px -2px #F0B90B;
+    }
+    .LoginMenu ul {
+        display: block;
+        align-items: center;
+        text-align: right;
+        margin-right: 20px;
+        padding-bottom: 20px;
+    }
+
+    .LoginMenu li {
+        margin-left: 0px;
+    }
+    .LoginMenu li:nth-child(2) {
+        align-items: center;
+        display: inline-block;
+        padding: 5px 10px;
+    }
+
+    .LoginMenu li img {
+        position: relative;
+        top: 5px;
+    }
+
+    .LanguagesMenu {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-left: 0%;
+        margin-top: 20px;
+      }
+      
+      .LanguagesMenu ul {
+        display: flex;
+        margin-right: 20px;
+      }
+      
+      .LanguagesMenu li {
+        list-style-type: none;
+      }
+      
+      .LanguagesMenu img {
+        width: 80%;
+        margin-top: -2px;
+      }
+}

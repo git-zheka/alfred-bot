@@ -1,0 +1,79 @@
+.Help {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #181A20;
+
+}
+
+
+.Box {
+    width: 100%;
+    display: flex;
+    padding-left: 10%;
+    align-items: center;
+
+}
+
+
+.BoxText {
+    width: 80%;
+    margin-left: 3%;
+}
+
+.BoxText p{
+    color: #9E9A9B;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.BoxText h4{
+    color: #EAECEF;
+    font-size: 20px;
+}
+
+
+.BoxIcon {
+    width: 12%;
+} 
+
+.BoxIcon img {
+    width: 100%;
+}
+
+.BoxText a {
+    color: #F0B90B;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .Help {
+        display: block
+      }
+    
+    
+    .Box {
+        display: block;
+        padding-left: 40px;
+        padding-top: 20px;
+        width: 100%;
+    }
+    
+      .BoxIcon {
+        width: 100%;
+        text-align: left;
+        padding: 0px;
+        padding-left: 2%;
+      }
+
+      .BoxIcon img{
+        width: 16%;
+      }
+
+      .BoxText p{
+        padding-left: 0%;
+    }
+    
+    
+}

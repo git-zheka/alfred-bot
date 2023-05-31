@@ -1,0 +1,110 @@
+.SectionLaboratory {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #181A20;
+}
+
+.sectionLeft {
+    width: 50%;
+    margin-left: 100px;
+}
+
+
+.sectionRight {
+    width: 50%;
+}
+
+.sectionRight img {
+    width: 40%;
+    margin-left: 100px;
+}
+
+
+.Box {
+    width: 100%;
+    display: flex;
+    padding-left: 5%;
+    align-items: center;
+    margin-top: 5%;
+}
+
+
+.Box:nth-child(1) {
+    margin: 0;
+}
+
+
+.BoxText {
+    width: 80%;
+    margin-left: 3%;
+}
+
+.BoxText p{
+    color: #9E9A9B;
+    font-size: 16px;
+    width: 100%;
+}
+
+.BoxText h4{
+    color: #EAECEF;
+    font-size: 20px;
+}
+
+
+.BoxIcon {
+    width: 12%;
+} 
+
+.BoxIcon img {
+    width: 100%;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .SectionLaboratory {
+        display: flex;
+        flex-direction: column;
+      }
+    
+      .sectionLeft {
+        width: 100%;
+        margin-left: 0;
+        order: 2;
+      }
+    
+      .sectionRight {
+        text-align: center;
+        width: 100%;
+        order: 1;
+      }
+
+      .sectionRight img {
+        margin-left: 0;
+      }
+    
+    .Box {
+        flex-direction: column;
+        padding-left: 0%;
+        padding: 0px;
+      }
+    
+      .BoxIcon {
+        width: 100%;
+        text-align: left;
+        padding: 0px;
+        padding-left: 10%;
+      }
+
+      .BoxIcon img{
+        width: 16%;
+      }
+
+      .BoxText p{
+        padding-left: 0%;
+    }
+    
+    
+}
+

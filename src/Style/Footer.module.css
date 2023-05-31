@@ -1,0 +1,79 @@
+.FooterSection {
+    display: flex;
+    padding:  100px 50px;
+    box-shadow: 0px 5px 11px -6px #000000 inset;
+    margin-top: 80px;
+}
+
+.LinksBox {
+    margin-left: 20px;
+}
+
+.LinksBox h3 {
+    color: #EAECEF;
+    font-size: 20px;
+}
+
+.LinksBox li a {
+    color: #9E9A9B;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.LinksBox li:nth-child(1) {
+    margin-top: 10px;
+}
+
+
+.Icons {
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+
+.Icons ul{ 
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.Icons ul li{ 
+    margin-right: 15px;
+    margin-top: 10px;
+    color: #F0B90B;
+}
+
+.Icons img{
+    display: flex;
+    width: 30px;
+}
+
+.Donate {
+    color: #F0B90B;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.Update {
+    width: 100%;
+    text-align: center;
+    color: #9E9A9B;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .FooterSection {
+        display: block;
+
+    }
+    
+    .LinksBox {
+        margin-left: 20px;
+    }
+    
+    
+}

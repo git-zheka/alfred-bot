@@ -1,0 +1,168 @@
+.SectionSchool {
+    display: flex;
+    width: 100%;
+    padding-left: 10%;
+    align-items: center;
+}
+
+.SectionLeft {
+    width: 30%;
+}
+
+.SectionCenter {
+    width: 30%;
+    text-align: center;
+}
+
+.SectionRight {
+    width: 30%;
+}
+
+.SectionCenter img{
+    width: 40%;
+    margin-bottom: 50px;
+}
+
+.Box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+
+.SectionLeft .BoxText {
+    width: 80%;
+    margin-right: 3%;
+    text-align: right;
+}
+
+.SectionRight .BoxText {
+    width: 80%;
+    margin-left: 3%;
+}
+
+
+.SectionLeft .BoxIcon {
+    width: 20%;
+    order: 1;
+} 
+
+.SectionRight .BoxIcon {
+    width: 20%;
+} 
+
+
+
+.BoxText p{
+    color: #9E9A9B;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.BoxText h4{
+    color: #EAECEF;
+    font-size: 20px;
+}
+
+
+.BoxIcon {
+    width: 12%;
+} 
+
+.BoxIcon img {
+    width: 100%;
+}
+
+.BoxText a {
+    color: #F0B90B;
+}
+
+
+.SectionLeft .Box:nth-child(1) {
+    margin-left: 100px;
+}
+
+.SectionRight .Box:nth-child(1) {
+    margin-left: -100px;
+}
+
+.SectionLeft .Box:nth-child(3) {
+    margin-left: 100px;
+}
+
+.SectionRight .Box:nth-child(3) {
+    margin-left: -100px;
+}
+
+.centerbtn {
+    display: flex;
+    justify-content: center;
+    background-color: #181A20;
+    margin-top: 40px;
+  }
+  
+  .getstart {
+    background-color: #F0B90B;
+    color: #181A20;
+    font-size: 24px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: solid 2px #F0B90B;
+    transition: 0.2s;
+  }
+  
+  .getstart:hover {
+    background-color: #181A20;
+    color: #F0B90B;
+    transition: 0.2s;
+    cursor: pointer;
+  }
+
+
+@media only screen and (max-width: 600px) {
+    .SectionSchool {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0%;
+      }
+    
+    .SectionLeft {
+        width: 100%;
+        order: 2;
+    }
+    
+    .SectionCenter {
+        width: 100%;
+        text-align: center;
+        order: 1;
+    }
+    
+    .SectionRight {
+        width: 100%;
+        order: 3;
+    }
+    
+    .Box {
+        width: 100%;
+        display: block;
+        align-items: center;
+        margin-bottom: 60px;
+        padding-left: 10%;
+    }
+
+    .SectionLeft .BoxText {
+        width: 80%;
+        margin-right: 3%;
+        text-align: left;
+    }
+
+
+    .SectionLeft .Box:nth-child(1),
+    .SectionRight .Box:nth-child(1),
+    .SectionLeft .Box:nth-child(3),
+    .SectionRight .Box:nth-child(3) {
+      margin-left: 0px;
+    }
+}
